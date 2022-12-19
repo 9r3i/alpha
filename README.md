@@ -5,9 +5,28 @@
 [![Stars](https://img.shields.io/github/stars/9r3i/alpha.svg)](https://github.com/9r3i/alpha/stargazers)
 [![Issues](https://img.shields.io/github/issues/9r3i/alpha.svg)](https://github.com/9r3i/alpha/issues)
 [![Release](https://img.shields.io/github/release/9r3i/alpha.svg)](https://github.com/9r3i/alpha/releases)
-
-
+[![Donate](https://img.shields.io/badge/donate-paypal-orange.svg)](https://paypal.me/9r3i)
 
 
 # alpha
 Alpha Editor is unique, simple, and light-weight text editor
+
+
+# Usage
+Alpha is using ```querySelector``` to detect ```textarea``` that has an ID.
+```js
+const editor=alpha.editor('editor');
+```
+In HTML textarea must be like this,
+```html
+<textarea name="content" id="editor"></textarea>
+```
+
+
+# Closing
+That's all there is to it. Alhamdulillaah...
+
+
+
+
+
